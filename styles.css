@@ -1,0 +1,43 @@
+* {
+    font-family: "Sora";
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #ebfeff;
+}
+#heading{
+    margin: 0;
+}
+#header{
+    display: flex;
+     justify-content: space-between;
+     padding-top: 30px;
+     padding-bottom: 28px;
+     padding-right: 144px;
+     padding-left: 144px;
+     border-bottom: 1px solid black;
+    
+}
+#Navigation-button-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+    
+}
+.Navigation-button{
+    text-decoration: none;
+    color: rgba(0,0,0,0.70);
+    font-size: 28px;
+    cursor: pointer;
+    
+
+}
+.Navigation-button.active{
+    color: #000;
+}
+#heading{
+    font-size: 30px;
+    font-weight: 700;
+}
